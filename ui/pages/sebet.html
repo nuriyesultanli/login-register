@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50">
+    <nav class="bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <a href="../index.html" class="text-2xl font-bold text-blue-600"
+              >MyApp</a
+            >
+          </div>
+          <div class="flex items-center space-x-2">
+            <button
+              class="flex items-center justify-center bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+            >
+              <a href=""><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </button>
+            <button
+              class="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+            >
+              <i class="fa-regular fa-user"></i>
+              <a href="./login.html" class="log">Daxil ol</a>
+              <a href="./login.html" class="hidden log">Çıxış et</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="sbt">
+      <h2 class="text-3xl font-bold text-gray-800 mb-8">Sebetinizdekiler</h2>
+ 
+    
+
+      <div class="space-y-6" id="productList"></div>
+    </div>
+    <script src="./js/sebet.js"></script>
+  </body>
+</html>
