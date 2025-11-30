@@ -47,12 +47,12 @@ registerForm.addEventListener('submit', (e) => {
     });
 });
 eye.addEventListener('click', () => {
-  passwordInput.type = 'text';
+  passwordInput.type = 'password';
   eye.classList.add('hidden');
   eye2.classList.remove('hidden');
 });
 eye2.addEventListener('click', () => {
-  passwordInput.type = 'password';
+  passwordInput.type = 'text';
   eye2.classList.add('hidden');
   eye.classList.remove('hidden');
 });
